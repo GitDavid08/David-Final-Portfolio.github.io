@@ -1,0 +1,245 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;700&display=swap');
+
+*,
+*:before,
+*::after{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+   font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #FFE3AB;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    word-spacing: 5px;
+    font-size: 20px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none; 
+    transition: color 1s;
+   }
+
+   nav a:hover{
+    color: #5DB389 ;
+   }
+  
+  footer {
+    background-color: #FFE3AB;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .button{
+    text-decoration: none;
+    color: black;
+    background-color: #A1FFD2 ;
+    padding: 10px 15px;
+    margin-top: 15px;
+
+  }
+  
+  /* Home page styles */
+  #homecontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  }
+.image-text-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.image-text-container img{
+  width: 500px;
+  margin-bottom: 30px;
+}
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Purp {
+  background-color: #B85DE2;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.art-text-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Retro-Promo {
+  width: 450px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.Gallito{
+  width: 450px;
+  margin-top: 155px;
+  margin-bottom: 30px;
+
+}
+ 
+  /* Art page styles */
+   #main-art{
+    background-image: url("../Img/mOON.png");
+    background-size: contain;
+    background-position: 130% 10px;
+    background-repeat: no-repeat;
+
+
+   }
+  #AHomecontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin-top: 80px;
+  }
+
+  #artcontainer{
+   display: flex;
+   justify-content: space-evenly;
+   align-content: center;
+   align-items: center;
+   flex-direction: row;
+  }
+
+  .chip-p{
+    margin-top: -20px;
+  }
+  
+  .Chip{
+    width: 450px;
+    border-style: solid;
+    border-color: #B85DE2;
+    margin-bottom: 25px;
+  }
+  
+
+  .Pink{
+    width: 450px;
+    border-style: solid;
+    border-color: #B85DE2;
+    margin-bottom: 60px;
+  }
+
+  #art-foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+
+
+
+  
+  /* About page styles */
+  #main-about{ 
+    background-image: url("../Img/colorful-eye.png");
+    background-size: contain;
+    background-position: 95% -65px;
+    background-repeat: no-repeat;
+
+
+  }
+
+  #mainheadline { 
+    
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  #text-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+  }
+
+  .text-intro{
+    margin-left: 100px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 30px;
+  
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  .my-heart{
+    width: 450px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-color: #B85DE2;
+  }
+
+  .text-ready{
+    margin: 100px;
+    font-size: 22px;
+  }
+
+  #about-foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+ 
