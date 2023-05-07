@@ -171,7 +171,6 @@ body {
 
   #art-foot{
     position: absolute;
-    bottom: 0;
     width: 100%;
   }
 
@@ -238,7 +237,6 @@ body {
 
   #about-foot{
     position: absolute;
-    bottom: 0;
     width: 100%;
   }
 
